@@ -11,6 +11,6 @@ namespace demo1.Models
         public long Id { get; set; }
         public string Title { get; set; }
         public bool Completed { get; set; }
-        public bool Edited { get; set; }
+       // public bool Edited { get; set; }
     }
 }
