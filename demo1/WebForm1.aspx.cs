@@ -20,7 +20,7 @@ namespace demo1
     public partial class WebForm1 : System.Web.UI.Page
     {
         //Sql Connection Enter you connection string here
-        SqlConnection con = new SqlConnection(@"Data Source = JAY; Initial Catalog = Demo1; Persist Security Info=True;User ID = sa; Password=Jaypanchal5571");
+        SqlConnection con = new SqlConnection(@"connection string of database");
 
         protected void Page_Load(object sender, EventArgs e)
         {
